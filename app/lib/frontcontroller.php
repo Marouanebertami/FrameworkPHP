@@ -26,11 +26,6 @@ class FrontController{
 		if(isset($url[2]) && $url[2]){
 			$this->_params = explode('/', $url[2]);
 		}
-		
-		// return $this;
-		// @list($this->_controllers, $this->_actions, $this->_params) = explode('/', trim($url, '/'), 3);
-
-		// $this->_params = explode('/', $this->_params);
 
 	}
 	

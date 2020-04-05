@@ -40,7 +40,7 @@ class AbstractController{
 			require_once VIEWS_PATH . 'notfound' . DS . 'notfound.view.php';
 		}else{
 			$view = VIEWS_PATH . $this->_controllers . DS . $this->_actions . '.view.php';
-			// echo $view;
+			
 			if(file_exists($view)){
 				require_once $view;
 			}else{
