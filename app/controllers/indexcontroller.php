@@ -10,16 +10,16 @@ use MPHP\conf\fields;
 class IndexController extends AbstractController{
 	
 	public function defaultAction(){
-		/*var_dump();*/
+		
 		$this->_data['test'] = UsersModel::listAll();
 		
 		$this->_view();
 	}
 	
 	public function addAction(){
-		/*$this->_view();*/
+		
 		$name = fields::postinput('name');
-		/*$name = $_POST['name'];*/
+		
 		$password = md5(fields::typepassword('password'));
 		
 		if(fields::verifyemail('email')){
@@ -30,7 +30,6 @@ class IndexController extends AbstractController{
 			echo 'enter good email';
 		}
 		
-		/*var_dump($name, $email, $password);*/
 		
 	}
 	
