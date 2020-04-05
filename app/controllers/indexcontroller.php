@@ -30,7 +30,6 @@ class IndexController extends AbstractController{
 			echo 'enter good email';
 		}
 		
-		
 	}
 	
 }
