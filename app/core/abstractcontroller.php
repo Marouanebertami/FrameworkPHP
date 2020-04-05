@@ -1,6 +1,6 @@
 <?php
 
-namespace MPHP\Controllers;
+namespace MPHP\core;
 
 use MPHP\LIB\FrontController;
 

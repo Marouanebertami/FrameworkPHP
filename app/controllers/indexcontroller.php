@@ -2,7 +2,7 @@
 
 namespace MPHP\Controllers;
 
-
+use MPHP\core\AbstractController;
 use MPHP\LIB\models\UsersModel;
 use MPHP\conf\fields;
 
