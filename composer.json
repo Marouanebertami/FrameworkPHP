@@ -1,0 +1,16 @@
+{
+    "name": "marouane/framework",
+    "description": "test description",
+    "authors": [
+        {
+            "name": "Marouanebertami",
+            "email": "marouanebertami4@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+           "model\\": "model/"
+        }
+    }
+}

@@ -19,7 +19,6 @@ require_once '..'. DS . 'app' . DS . 'config.php';
 // require the autoload file
 require_once APP_PATH . DS . 'lib' . DS . 'autoload.php';
 
-
 // instance the front controller
 $frontController = new FrontController();
 
